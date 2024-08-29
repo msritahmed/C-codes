@@ -7,7 +7,7 @@ void main()
     printf("enter the numbers\n");
     scanf("%d%d",&a,&b);
     printf("before swapping %d and %d\n",a,b);
-    a=a^b;
+    a=a^b; //xor operations
      b=a^b;
       a=a^b;
       printf("after swapping %d and %d\n",a,b);
